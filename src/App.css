@@ -1,0 +1,517 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+strong {
+  color: #fb3131;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(26, 26, 26, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #333333;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Georgia, serif;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #cccccc;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/pexels-scottwebb-2011824.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  line-height: 1.1;
+  font-family: Georgia, serif;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #cccccc;
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-family: Georgia, serif;
+}
+
+.hero-button {
+  display: inline-block;
+  background: #000000;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Georgia, serif;
+  box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  background: #333333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styles */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: Georgia, serif;
+}
+
+.clients-section .section-title {
+  border: 3px solid #000000;
+  background-color: #000000;
+  padding: 20px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* About Section */
+.about-section {
+  padding: 80px 0;
+  background: linear-gradient(rgba(48, 47, 47, 0.6), rgba(0, 0, 0, 0.6)), url('/360_F_840898433_o7OSaS3IQb20mZfgM5jyn9ExvJB6Nr9p.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-subtitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 30px;
+  font-family: Georgia, serif;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-family: Georgia, serif;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1);
+  margin-bottom: 30px;
+  border: 4px solid #ffffff;
+  background: #2d2d2d;
+}
+
+/* Services Section */
+.services-section {
+  padding: 80px 0;
+  background: #2d2d2d;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.service-card {
+  background: #1a1a1a;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.service-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-family: Georgia, serif;
+}
+
+.service-description {
+  color: #cccccc;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+}
+
+/* Instagram Section */
+.instagram-section {
+  padding: 80px 0;
+  background: #1a1a1a;
+  text-align: center;
+}
+
+/* Clients Section */
+.clients-section {
+  padding: 40px 0 80px 0;
+  background: #404040;
+  text-align: center;
+}
+
+.clients-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.clients-left {
+  flex: 1;
+  text-align: left;
+}
+
+.clients-right {
+  flex: 1;
+  text-align: left;
+}
+
+.clients-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-family: Georgia, serif;
+}
+
+.clients-list {
+  font-size: 1.1rem;
+  color: #cccccc;
+  line-height: 1.8;
+  font-family: Georgia, serif;
+  text-align: left;
+}
+
+.clients-right-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000000;
+  font-family: Georgia, serif;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.clients-events {
+  font-size: 1.1rem;
+  color: #cccccc;
+  line-height: 1.8;
+  font-family: Georgia, serif;
+  text-align: left;
+}
+
+.clients-bottom {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.clients-opportunity {
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+  text-align: left;
+  margin-bottom: 40px;
+  font-weight: 500;
+  max-width: 1200px;
+  white-space: nowrap;
+}
+
+.instagram-text {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 30px;
+  font-family: Georgia, serif;
+}
+
+.instagram-button {
+  display: inline-block;
+  background: #000000;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Georgia, serif;
+  box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+  transition: all 0.3s ease;
+}
+
+.instagram-button:hover {
+  background: #333333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.instagram-gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.instagram-photo-link {
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.instagram-photo-link:hover {
+  transform: scale(1.04) translateY(-2px);
+  box-shadow: 0 8px 24px rgba(233,30,99,0.18);
+}
+.instagram-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 600px) {
+  .instagram-photo {
+    width: 110px;
+    height: 110px;
+  }
+  .instagram-gallery {
+    gap: 10px;
+  }
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 80px 0;
+  background: #2d2d2d;
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 1.2rem;
+  color: #cccccc;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-family: Georgia, serif;
+}
+
+.contact-link {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: Georgia, serif;
+}
+
+.contact-link:hover {
+  color: #cccccc;
+}
+
+/* Footer */
+.footer {
+  background: #1a1a1a;
+  color: white;
+  padding: 30px 0;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-copyright {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: Georgia, serif;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+  font-family: Georgia, serif;
+}
+
+.footer-link:hover {
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-menu {
+    gap: 20px;
+  }
+  
+  .nav-logo {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-container {
+    padding: 0 15px;
+  }
+  
+  .nav-menu {
+    gap: 15px;
+  }
+  
+  .nav-link {
+    font-size: 14px;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .hero-button,
+  .instagram-button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+}
