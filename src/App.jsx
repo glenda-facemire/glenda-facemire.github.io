@@ -113,14 +113,6 @@ function App() {
         {/* Instagram Gallery Section */}
         <InstagramGallery />
 
-        {/* Work with us Section */}
-        <section id="work-with-us" className="work-with-us-section">
-          <div className="container">
-            <h2 className="section-title">Work with us</h2>
-            {/* Content will be added later */}
-          </div>
-        </section>
-
         {/* Clients Section */}
         <section id="clients" className="clients-section">
           <div className="container">
@@ -165,6 +157,14 @@ function App() {
               Glenda is the author of <strong>Music In The Kitchen – Favorite Recipes from Austin City Limit's Performers</strong> <br/>published by The University of Texas Press in 2009.<br />
               <a href="https://www.amazon.com/dp/0292718152?ref=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&ref_=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&social_share=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&bestFormat=true&previewDohEventScheduleTesting=C&csmig=1" target="_blank" rel="noopener noreferrer" className="instagram-button">View on Amazon</a>
             </p>
+          </div>
+        </section>
+
+        {/* Work with us / Advertise Section */}
+        <section id="work-with-us" className="work-with-us-section">
+          <div className="container">
+            <h2 className="section-title">Work with us / Advertise</h2>
+            {/* Content will be added later */}
           </div>
         </section>
       </main>
