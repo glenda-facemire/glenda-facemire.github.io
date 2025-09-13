@@ -1,15 +1,15 @@
 import './App.css';
 
 const INSTAGRAM_URL = "https://instagram.com/glendafacemire.makeup";
-const PROFILE_PIC = "/20905594_143605949561768_6036651507477118976_a.jpg";
-const BACKGROUND_PIC = "/pexels-scottwebb-2011824.jpg"
-const BACKGROUND_PIC_2 = "/360_F_840898433_o7OSaS3IQb20mZfgM5jyn9ExvJB6Nr9p.jpg"
+const PROFILE_PIC = "./20905594_143605949561768_6036651507477118976_a.jpg";
+const BACKGROUND_PIC = "./pexels-scottwebb-2011824.jpg"
+const BACKGROUND_PIC_2 = "./360_F_840898433_o7OSaS3IQb20mZfgM5jyn9ExvJB6Nr9p.jpg"
 
 // Import the 4 pictures that were added
-const IMAGE_1 = "/Black female bango.jpeg";
-const IMAGE_2 = "/Molly Tucker.jpeg";
-const IMAGE_3 = "/Jason Mraz.jpeg";
-const IMAGE_4 = "/IMG_2287.jpeg";
+const IMAGE_1 = "./Black female bango.jpeg";
+const IMAGE_2 = "./Molly Tucker.jpeg";
+const IMAGE_3 = "./Jason Mraz.jpeg";
+const IMAGE_4 = "./IMG_2287.jpeg";
 
 function Navbar() {
   return (
