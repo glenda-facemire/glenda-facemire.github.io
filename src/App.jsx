@@ -116,7 +116,7 @@ function App() {
         {/* Work with us Section */}
         <section id="work-with-us" className="work-with-us-section">
           <div className="container">
-            <h2 className="section-title">Work with us / Advertise</h2>
+            <h2 className="section-title">Work with us</h2>
             {/* Content will be added later */}
           </div>
         </section>
