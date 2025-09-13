@@ -173,6 +173,15 @@ strong {
   font-family: Georgia, serif;
 }
 
+.clients-subtitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fb3131;
+  text-align: left;
+  margin-bottom: 30px;
+  font-family: Georgia, serif;
+}
+
 .about-content {
   max-width: 800px;
   margin: 0 auto;
@@ -242,6 +251,13 @@ strong {
 .instagram-section {
   padding: 80px 0;
   background: #1a1a1a;
+  text-align: center;
+}
+
+/* Work with us Section */
+.work-with-us-section {
+  padding: 80px 0;
+  background: #2d2d2d;
   text-align: center;
 }
 

@@ -20,6 +20,7 @@ function Navbar() {
           <li><a href="#about" className="nav-link">About</a></li>
           <li><a href="#instagram" className="nav-link">Instagram</a></li>
           <li><a href="#clients" className="nav-link">Credits</a></li>
+          <li><a href="#work-with-us" className="nav-link">Work with us</a></li>
           <li><a href="#contact" className="nav-link">Contact</a></li>
           <li><a href="#cookbook" className="nav-link">Cookbook</a></li>
         </ul>
@@ -88,7 +89,7 @@ function App() {
             <h1 className="hero-title">Glenda V. Facemire</h1>
             <h2 className="hero-subtitle">Celebrity Makeup Artist</h2>
             <p className="profile-text">
-              Professional film, television, video, and print artist with 37 years experience. List of clients reads like a who's who of music and Hollywood.
+              Professional film, television, video, and print artist with 36+ years experience. List of clients reads like a who's who of music and Hollywood.
             </p>
           </div>
         </section>
@@ -112,6 +113,14 @@ function App() {
         {/* Instagram Gallery Section */}
         <InstagramGallery />
 
+        {/* Work with us Section */}
+        <section id="work-with-us" className="work-with-us-section">
+          <div className="container">
+            <h2 className="section-title">Work with us</h2>
+            {/* Content will be added later */}
+          </div>
+        </section>
+
         {/* Clients Section */}
         <section id="clients" className="clients-section">
           <div className="container">
@@ -119,7 +128,7 @@ function App() {
             <div className="clients-opportunity">
               Unique opportunity to be one-on-one and face-to-face with the best of international and national celebrities, music artists, and other production companies.
             </div>
-            <h3 className="about-subtitle">Head Makeup Artist at Austin City Limits, PBS<br />(since 1987)</h3>
+            <h3 className="clients-subtitle">Head Makeup Artist at Austin City Limits, PBS<br />(since 1987)</h3>
             <div className="clients-content">
               <div className="clients-left">
                 <div className="clients-list">
@@ -128,7 +137,7 @@ function App() {
               </div>
             </div>
             <div className="clients-bottom">
-              <h3 className="clients-right-title">Freelance Work</h3>
+              <h3 className="clients-subtitle">Freelance Work</h3>
               <div className="clients-events">
                 2002 first American Idol auditions/Ryan Seacrest, Simon, and Randy (Austin), Austin City Limits Music Festival, Access Hollywood, NBC Universal, Dateline, 60 Minutes- Anderson Cooper, Good Morning America- Director James Cameron, Ambush Makeover, E-Entertainment, Home & Garden- HGTV; SXSW, The Food Network, Amy Poehler, Budweiser; Beer ; Comic Ben Schwartz Dos Equis Beer , Dennis Hopper; CBS Sports, Nightline, Dan Rather; Director Cameron Crowe; Fuse-TV NY – Amy Schumer ; John Walsh/Americas Most Wanted; Nashville Connection; Tejano Music Awards,San Antonio: Spike TV, Lifetime, MTV-Real World, VH-1; TV Guide - 2010-American Idol Host: Justin Guarini, Good Morning America, Panasonic, Harry Connick Jr ; Henry Louis Gates Jr.; Ken Burns, Mike Judge, Randi Zuckerberg,, Luke Wilson, Whoopie Goldberg, ,60 Minutes, Julia Child, Ben Vereen–San Antonio, George Bush Jr. PBS, BBC, BET, NBC, ABC, ESPN, CNN, Fox Network-News, CDC-Atlanta, 20th Century Fox, Hope Floats, Columbia Pictures/ "The Buddy Holly Story", New Line Pictures, Time-Warner, Charities, Corporate, record companies/videos, Texas Athletes - Ben Crenshaw, Tom Kite, quarterback Colt McCoy, USA Olympian decathlete Trey Hardee to cyclist Lance Armstrong for Texas Monthly
               </div>
