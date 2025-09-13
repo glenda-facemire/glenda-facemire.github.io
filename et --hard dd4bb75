@@ -1,0 +1,7 @@
+[33mb20bdd2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Trigger new deployment to fix GitHub Pages issue
+[33m3979313[m Move images to public folder and update paths for proper Vite serving
+[33mdd4bb75[m Update image paths and page title for GitHub Pages
+[33me1d719f[m Fix image paths and update page title
+[33m66f47da[m Create jekyll-gh-pages.yml
+[33m30bdccc[m Add GitHub Actions workflow for automatic deployment
+[33m864a822[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m Initial commit: Glenda's website
