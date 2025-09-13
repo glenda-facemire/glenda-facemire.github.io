@@ -84,7 +84,7 @@ strong {
 /* Hero Section */
 .hero {
   min-height: 80vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/pexels-scottwebb-2011824.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./pexels-scottwebb-2011824.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -159,7 +159,7 @@ strong {
 /* About Section */
 .about-section {
   padding: 80px 0;
-  background: linear-gradient(rgba(48, 47, 47, 0.6), rgba(0, 0, 0, 0.6)), url('/360_F_840898433_o7OSaS3IQb20mZfgM5jyn9ExvJB6Nr9p.jpg');
+  background: linear-gradient(rgba(48, 47, 47, 0.6), rgba(0, 0, 0, 0.6)), url('./360_F_840898433_o7OSaS3IQb20mZfgM5jyn9ExvJB6Nr9p.jpg');
   background-size: cover;
   background-position: center;
 }
