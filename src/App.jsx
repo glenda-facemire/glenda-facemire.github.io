@@ -20,6 +20,7 @@ function Navbar() {
           <li><a href="#about" className="nav-link">About</a></li>
           <li><a href="#instagram" className="nav-link">Instagram</a></li>
           <li><a href="#clients" className="nav-link">Credits</a></li>
+          <li><a href="#work-with-us" className="nav-link">Work with us</a></li>
           <li><a href="#contact" className="nav-link">Contact</a></li>
           <li><a href="#cookbook" className="nav-link">Cookbook</a></li>
         </ul>
@@ -111,6 +112,14 @@ function App() {
 
         {/* Instagram Gallery Section */}
         <InstagramGallery />
+
+        {/* Work with us Section */}
+        <section id="work-with-us" className="work-with-us-section">
+          <div className="container">
+            <h2 className="section-title">Work with us</h2>
+            {/* Content will be added later */}
+          </div>
+        </section>
 
         {/* Clients Section */}
         <section id="clients" className="clients-section">
