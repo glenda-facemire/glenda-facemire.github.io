@@ -1,0 +1,10 @@
+[33m4a70a87[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Update Work with us section and styling
+[33m90f8e87[m Update website content and styling
+[33m52370b6[m Update website with latest changes
+[33m4cd197d[m Change hero section background to maroon color
+[33mba26914[m Update hero section background to maroon and change About Me to About
+[33m50fe1f9[m Fix image paths for GitHub Pages deployment - changed relative paths to absolute paths
+[33m8592e52[m Add maroon background to hero title
+[33me87a068[m Add maroon background to hero title
+[33m57a0b89[m Remove background images from title section and change to maroon color
+[33m7080cbf[m Simplify GitHub Actions workflow and verify manual deployment works
