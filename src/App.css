@@ -291,47 +291,51 @@ strong {
   font-style: italic;
 }
 
+.review-preview, .review-full {
+  display: inline;
+}
+
+.review-actions {
+  margin-bottom: 15px;
+}
+
+.see-more-btn {
+  background: none;
+  border: none;
+  color: #fb3131;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: Georgia, serif;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.see-more-btn:hover {
+  background-color: #fb3131;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.arrow {
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.see-more-btn:hover .arrow {
+  transform: translateX(3px);
+}
+
 .review-author {
   font-size: 1rem;
   color: #fb3131;
   font-weight: 600;
   font-family: Georgia, serif;
   text-align: right;
-}
-
-.see-more-container {
-  margin-top: 40px;
-}
-
-.see-more-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 600;
-  font-family: Georgia, serif;
-  padding: 15px 30px;
-  border: 2px solid #fb3131;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-}
-
-.see-more-link:hover {
-  background-color: #fb3131;
-  color: #ffffff;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(251, 49, 49, 0.3);
-}
-
-.arrow {
-  font-size: 1.2rem;
-  transition: transform 0.3s ease;
-}
-
-.see-more-link:hover .arrow {
-  transform: translateX(5px);
 }
 
 /* Work with us Section */

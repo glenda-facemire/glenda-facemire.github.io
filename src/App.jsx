@@ -79,6 +79,25 @@ function InstagramGallery() {
   );
 }
 
+// Function to toggle review text
+function toggleReview(event) {
+  const button = event.target.closest('.see-more-btn');
+  const card = button.closest('.review-card');
+  const preview = card.querySelector('.review-preview');
+  const full = card.querySelector('.review-full');
+  const arrow = button.querySelector('.arrow');
+  
+  if (full.style.display === 'none') {
+    preview.style.display = 'none';
+    full.style.display = 'inline';
+    button.innerHTML = 'See Less <span class="arrow">↑</span>';
+  } else {
+    preview.style.display = 'inline';
+    full.style.display = 'none';
+    button.innerHTML = 'See More <span class="arrow">→</span>';
+  }
+}
+
 function App() {
   return (
     <div className="app">
@@ -145,22 +164,36 @@ function App() {
             <div className="reviews-grid">
               <div className="review-card">
                 <div className="review-text">
-                  "Glenda is absolutely amazing! Her attention to detail and professional expertise made all the difference. Highly recommend her services!"
+                  <span className="review-preview">
+                    "Glenda is absolutely amazing! Her attention to detail and professional expertise made all the difference. Highly recommend her services!"
+                  </span>
+                  <span className="review-full" style={{display: 'none'}}>
+                    "Glenda is absolutely amazing! Her attention to detail and professional expertise made all the difference. Working with her on our project was seamless - she understood exactly what we needed and delivered beyond our expectations. Her professionalism and creativity shine through in everything she does. I can't recommend her services highly enough!"
+                  </span>
+                </div>
+                <div className="review-actions">
+                  <button className="see-more-btn" onClick={(e) => toggleReview(e)}>
+                    See More <span className="arrow">→</span>
+                  </button>
                 </div>
                 <div className="review-author">- Terry</div>
               </div>
               <div className="review-card">
                 <div className="review-text">
-                  "Working with Glenda was a fantastic experience. Her talent and professionalism shine through in every project. Truly exceptional work!"
+                  <span className="review-preview">
+                    "Working with Glenda was a fantastic experience. Her talent and professionalism shine through in every project. Truly exceptional work!"
+                  </span>
+                  <span className="review-full" style={{display: 'none'}}>
+                    "Working with Glenda was a fantastic experience. Her talent and professionalism shine through in every project. She brought such creativity and skill to our production, and her ability to work under pressure while maintaining the highest quality standards is remarkable. Her years of experience really show in her work. Truly exceptional work that exceeded all our expectations!"
+                  </span>
+                </div>
+                <div className="review-actions">
+                  <button className="see-more-btn" onClick={(e) => toggleReview(e)}>
+                    See More <span className="arrow">→</span>
+                  </button>
                 </div>
                 <div className="review-author">- Amer</div>
               </div>
-            </div>
-            <div className="see-more-container">
-              <a href="#contact" className="see-more-link">
-                See More Reviews
-                <span className="arrow">→</span>
-              </a>
             </div>
           </div>
         </section>
