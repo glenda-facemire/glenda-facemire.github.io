@@ -167,7 +167,7 @@ function App() {
                   "Glenda V. Facemire has been the Head Makeup Artist at Austin City Limits since 1987. Her professional expertise and attention to detail have made her an invaluable part of our production team."
                 </div>
                 <div className="review-photo" style={{display: 'none'}}>
-                  <img src="./Terry Lickona Forward MITK.pages" alt="Terry Lickona testimonial" className="testimonial-image" />
+                  <img src="/Terry Lickona Forward MITK.pages" alt="Terry Lickona testimonial" className="testimonial-image" />
                 </div>
                 <div className="review-actions">
                   <button className="see-more-btn" onClick={(e) => toggleReview(e)}>
@@ -181,7 +181,7 @@ function App() {
                   "Glenda V. Facemire's work with the Humane Society has been nothing short of remarkable. Her commitment to animal welfare and her professional skills have made a significant impact on our organization."
                 </div>
                 <div className="review-photo" style={{display: 'none'}}>
-                  <img src="./Amer Humane Assoc.pdf" alt="Amer Humane Association testimonial" className="testimonial-image" />
+                  <img src="/Amer Humane Assoc.pdf" alt="Amer Humane Association testimonial" className="testimonial-image" />
                 </div>
                 <div className="review-actions">
                   <button className="see-more-btn" onClick={(e) => toggleReview(e)}>
@@ -216,10 +216,10 @@ function App() {
             </p>
             <div className="cookbook-images">
               <div className="cookbook-image-container">
-                <img src="./B_B_ King.jpeg" alt="B.B. King" className="cookbook-image" />
+                <img src="/B_B_ King.jpeg" alt="B.B. King" className="cookbook-image" />
               </div>
               <div className="cookbook-image-container">
-                <img src="./1752949881888blob.jpg" alt="1752" className="cookbook-image" />
+                <img src="/1752949881888blob.jpg" alt="1752" className="cookbook-image" />
               </div>
             </div>
           </div>
