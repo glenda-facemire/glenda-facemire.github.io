@@ -216,12 +216,10 @@ function App() {
             </p>
             <div className="cookbook-images">
               <div className="cookbook-image-container">
-                <img src="./Black female bango.jpeg" alt="B.B. King" className="cookbook-image" />
-                <p className="cookbook-caption">B.B. King</p>
+                <img src="./B_B_ King.jpeg" alt="B.B. King" className="cookbook-image" />
               </div>
               <div className="cookbook-image-container">
-                <img src="./20905594_143605949561768_6036651507477118976_a.jpg" alt="1752" className="cookbook-image" />
-                <p className="cookbook-caption">1752</p>
+                <img src="./1752949881888blob.jpg" alt="1752" className="cookbook-image" />
               </div>
             </div>
           </div>
