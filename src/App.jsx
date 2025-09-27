@@ -20,9 +20,10 @@ function Navbar() {
           <li><a href="#about" className="nav-link">About</a></li>
           <li><a href="#instagram" className="nav-link">Instagram</a></li>
           <li><a href="#clients" className="nav-link">Credits</a></li>
-          <li><a href="#work-with-us" className="nav-link">Work with us</a></li>
+          <li><a href="#reviews" className="nav-link">Reviews</a></li>
           <li><a href="#contact" className="nav-link">Contact</a></li>
           <li><a href="#cookbook" className="nav-link">Cookbook</a></li>
+          <li><a href="#work-with-us" className="nav-link">Work with us</a></li>
         </ul>
       </div>
     </nav>
@@ -113,14 +114,6 @@ function App() {
         {/* Instagram Gallery Section */}
         <InstagramGallery />
 
-        {/* Work with us Section */}
-        <section id="work-with-us" className="work-with-us-section">
-          <div className="container">
-            <h2 className="section-title">Work with us</h2>
-            {/* Content will be added later */}
-          </div>
-        </section>
-
         {/* Clients Section */}
         <section id="clients" className="clients-section">
           <div className="container">
@@ -145,6 +138,17 @@ function App() {
           </div>
         </section>
 
+        {/* Reviews Section */}
+        <section id="reviews" className="reviews-section">
+          <div className="container">
+            <h2 className="section-title">Reviews</h2>
+            <div className="reviews-content">
+              {/* Reviews will be added here */}
+              <p className="reviews-text">Client testimonials and reviews coming soon...</p>
+            </div>
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section id="contact" className="contact-section">
           <div className="container">
@@ -165,6 +169,14 @@ function App() {
               Glenda is the author of <strong>Music In The Kitchen – Favorite Recipes from Austin City Limit's Performers</strong> <br/>published by The University of Texas Press in 2009.<br />
               <a href="https://www.amazon.com/dp/0292718152?ref=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&ref_=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&social_share=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&bestFormat=true&previewDohEventScheduleTesting=C&csmig=1" target="_blank" rel="noopener noreferrer" className="instagram-button">View on Amazon</a>
             </p>
+          </div>
+        </section>
+
+        {/* Work with us Section */}
+        <section id="work-with-us" className="work-with-us-section">
+          <div className="container">
+            <h2 className="section-title">Work with us</h2>
+            {/* Content will be added later */}
           </div>
         </section>
       </main>
