@@ -79,21 +79,21 @@ function InstagramGallery() {
   );
 }
 
-// Function to toggle review text
+// Function to toggle review photo
 function toggleReview(event) {
   const button = event.target.closest('.see-more-btn');
   const card = button.closest('.review-card');
-  const preview = card.querySelector('.review-preview');
-  const full = card.querySelector('.review-full');
+  const text = card.querySelector('.review-text');
+  const photo = card.querySelector('.review-photo');
   const arrow = button.querySelector('.arrow');
   
-  if (full.style.display === 'none') {
-    preview.style.display = 'none';
-    full.style.display = 'inline';
+  if (photo.style.display === 'none') {
+    text.style.display = 'none';
+    photo.style.display = 'block';
     button.innerHTML = 'See Less <span class="arrow">↑</span>';
   } else {
-    preview.style.display = 'inline';
-    full.style.display = 'none';
+    text.style.display = 'block';
+    photo.style.display = 'none';
     button.innerHTML = 'See More <span class="arrow">→</span>';
   }
 }
@@ -164,12 +164,10 @@ function App() {
             <div className="reviews-grid">
               <div className="review-card">
                 <div className="review-text">
-                  <span className="review-preview">
-                    "Glenda V. Facemire has been the Head Makeup Artist at Austin City Limits since 1987. Her professional expertise and attention to detail have made her an invaluable part of our production team..."
-                  </span>
-                  <span className="review-full" style={{display: 'none'}}>
-                    "Glenda V. Facemire has been the Head Makeup Artist at Austin City Limits since 1987. Her professional expertise and attention to detail have made her an invaluable part of our production team. Working with some of the biggest names in music and entertainment, Glenda consistently delivers exceptional results under the demanding conditions of live television production. Her ability to work with diverse artists while maintaining the highest standards of makeup artistry has earned her the respect of performers, directors, and crew members alike. Glenda's dedication to her craft and her professional approach make her an essential part of the Austin City Limits family."
-                  </span>
+                  "Glenda V. Facemire has been the Head Makeup Artist at Austin City Limits since 1987. Her professional expertise and attention to detail have made her an invaluable part of our production team."
+                </div>
+                <div className="review-photo" style={{display: 'none'}}>
+                  <img src="./Terry Lickona Forward MITK.pages" alt="Terry Lickona testimonial" className="testimonial-image" />
                 </div>
                 <div className="review-actions">
                   <button className="see-more-btn" onClick={(e) => toggleReview(e)}>
@@ -180,12 +178,10 @@ function App() {
               </div>
               <div className="review-card">
                 <div className="review-text">
-                  <span className="review-preview">
-                    "Glenda V. Facemire's work with the Humane Society has been nothing short of remarkable. Her commitment to animal welfare and her professional skills have made a significant impact on our organization..."
-                  </span>
-                  <span className="review-full" style={{display: 'none'}}>
-                    "Glenda V. Facemire's work with the Humane Society has been nothing short of remarkable. Her commitment to animal welfare and her professional skills have made a significant impact on our organization. Through her involvement in our fundraising events and awareness campaigns, Glenda has helped us reach new audiences and raise vital funds for animal rescue and care. Her ability to combine her professional makeup artistry with her passion for animal welfare has created memorable and effective campaigns that have directly benefited countless animals in need. Glenda's dedication to both her craft and her charitable work exemplifies the best of what it means to use one's talents for the greater good."
-                  </span>
+                  "Glenda V. Facemire's work with the Humane Society has been nothing short of remarkable. Her commitment to animal welfare and her professional skills have made a significant impact on our organization."
+                </div>
+                <div className="review-photo" style={{display: 'none'}}>
+                  <img src="./Amer Humane Assoc.pdf" alt="Amer Humane Association testimonial" className="testimonial-image" />
                 </div>
                 <div className="review-actions">
                   <button className="see-more-btn" onClick={(e) => toggleReview(e)}>
@@ -218,6 +214,16 @@ function App() {
               Glenda is the author of <strong>Music In The Kitchen – Favorite Recipes from Austin City Limit's Performers</strong> <br/>published by The University of Texas Press in 2009.<br />
               <a href="https://www.amazon.com/dp/0292718152?ref=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&ref_=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&social_share=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&bestFormat=true&previewDohEventScheduleTesting=C&csmig=1" target="_blank" rel="noopener noreferrer" className="instagram-button">View on Amazon</a>
             </p>
+            <div className="cookbook-images">
+              <div className="cookbook-image-container">
+                <img src="./Black female bango.jpeg" alt="B.B. King" className="cookbook-image" />
+                <p className="cookbook-caption">B.B. King</p>
+              </div>
+              <div className="cookbook-image-container">
+                <img src="./20905594_143605949561768_6036651507477118976_a.jpg" alt="1752" className="cookbook-image" />
+                <p className="cookbook-caption">1752</p>
+              </div>
+            </div>
           </div>
         </section>
 
