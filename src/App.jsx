@@ -142,9 +142,25 @@ function App() {
         <section id="reviews" className="reviews-section">
           <div className="container">
             <h2 className="section-title">Reviews</h2>
-            <div className="reviews-content">
-              {/* Reviews will be added here */}
-              <p className="reviews-text">Client testimonials and reviews coming soon...</p>
+            <div className="reviews-grid">
+              <div className="review-card">
+                <div className="review-text">
+                  "Glenda is absolutely amazing! Her attention to detail and professional expertise made all the difference. Highly recommend her services!"
+                </div>
+                <div className="review-author">- Terry</div>
+              </div>
+              <div className="review-card">
+                <div className="review-text">
+                  "Working with Glenda was a fantastic experience. Her talent and professionalism shine through in every project. Truly exceptional work!"
+                </div>
+                <div className="review-author">- Amer</div>
+              </div>
+            </div>
+            <div className="see-more-container">
+              <a href="#contact" className="see-more-link">
+                See More Reviews
+                <span className="arrow">→</span>
+              </a>
             </div>
           </div>
         </section>

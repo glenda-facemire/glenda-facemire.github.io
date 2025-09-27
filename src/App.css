@@ -261,16 +261,77 @@ strong {
   text-align: center;
 }
 
-.reviews-content {
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 
-.reviews-text {
-  font-size: 1.2rem;
-  color: #cccccc;
-  font-family: Georgia, serif;
+.review-card {
+  background: #2d2d2d;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.review-text {
+  font-size: 1.1rem;
+  color: #ffffff;
   line-height: 1.6;
+  font-family: Georgia, serif;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.review-author {
+  font-size: 1rem;
+  color: #fb3131;
+  font-weight: 600;
+  font-family: Georgia, serif;
+  text-align: right;
+}
+
+.see-more-container {
+  margin-top: 40px;
+}
+
+.see-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: Georgia, serif;
+  padding: 15px 30px;
+  border: 2px solid #fb3131;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.see-more-link:hover {
+  background-color: #fb3131;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(251, 49, 49, 0.3);
+}
+
+.arrow {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.see-more-link:hover .arrow {
+  transform: translateX(5px);
 }
 
 /* Work with us Section */
@@ -520,6 +581,15 @@ strong {
   
   .footer-links {
     justify-content: center;
+  }
+  
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .review-card {
+    padding: 25px;
   }
 }
 
