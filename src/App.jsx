@@ -98,7 +98,7 @@ function App() {
         {/* About Section */}
         <section id="about" className="about-section">
           <div className="container">
-            <h2 className="section-title">About Me</h2>
+            <h2 className="section-title">About</h2>
             <div className="about-content" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
               <img src={PROFILE_PIC} alt="Glenda V. Facemire" className="profile-photo" />
               <p className="about-text">
