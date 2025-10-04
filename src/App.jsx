@@ -163,12 +163,12 @@ function App() {
             <div className="reviews-grid">
               <div className="review-card">
                 <div className="review-text">
-                  "Glenda V. Facemire has been the Head Makeup Artist at Austin City Limits since 1987. Her professional expertise and attention to detail have made her an invaluable part of our production team."
+                  "Glenda V. Facemire's cookbook 'Music In The Kitchen' beautifully captures the essence of Austin City Limits through the favorite recipes of our performers. Her dedication to both the culinary arts and music culture shines through in this remarkable collection."
                 </div>
                 <div className="review-photo" style={{display: 'none'}}>
                   <div className="testimonial-document">
                     <a href="/Terry Lickona Forward MITK.pages" target="_blank" rel="noopener noreferrer" className="document-link">
-                      📄 View Terry Lickona's Full Testimonial
+                      📄 View Terry Lickona's Full Forward
                     </a>
                   </div>
                 </div>
