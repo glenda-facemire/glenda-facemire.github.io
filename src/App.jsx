@@ -222,8 +222,9 @@ function App() {
               <a href="https://www.amazon.com/dp/0292718152?ref=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&ref_=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&social_share=cm_sw_r_ffobk_cso_cp_apin_dp_S3HWDPZ4F0V8NY1YZQA0&bestFormat=true&previewDohEventScheduleTesting=C&csmig=1" target="_blank" rel="noopener noreferrer" className="instagram-button">View on Amazon</a>
             </p>
             <div className="cookbook-images">
-              <div className="cookbook-image-container">
-                <img src="/B_B_ King.jpeg" alt="B.B. King" className="cookbook-image" />
+              <div className="cookbook-image-container bb-king-container">
+                <img src="/B_B_ King.jpeg" alt="B.B. King" className="cookbook-image bb-king-image" />
+                <div className="cookbook-caption">Complements of B.B. King</div>
               </div>
               <div className="cookbook-image-container">
                 <img src="/1752949881888blob.jpg" alt="1752" className="cookbook-image" />

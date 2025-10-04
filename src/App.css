@@ -400,6 +400,25 @@ strong {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
+.bb-king-container {
+  flex: 1;
+  max-width: 400px;
+}
+
+.bb-king-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.cookbook-caption {
+  margin-top: 15px;
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 
 /* Work with us Section */
 .work-with-us-section {
@@ -668,6 +687,11 @@ strong {
   .cookbook-image {
     width: 150px;
     height: 150px;
+  }
+  
+  .bb-king-image {
+    width: 200px;
+    height: 200px;
   }
 }
 
