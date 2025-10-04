@@ -179,6 +179,9 @@ function App() {
                 </div>
                 <div className="review-author">- Terry Lickona, Executive Producer, Austin City Limits PBS</div>
               </div>
+              <div className="review-image-container">
+                <img src="/Image 10-4-25 at 2.42 PM.jpeg" alt="Additional testimonial image" className="review-image" />
+              </div>
               <div className="review-card">
                 <div className="review-text">
                   "Glenda V. Facemire's work with the Humane Society has been nothing short of remarkable. Her commitment to animal welfare and her professional skills have made a significant impact on our organization."

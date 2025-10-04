@@ -374,6 +374,27 @@ strong {
   text-align: right;
 }
 
+.review-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  grid-column: 1 / -1;
+}
+
+.review-image {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
 .cookbook-images {
   display: flex;
   gap: 30px;
