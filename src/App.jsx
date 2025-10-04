@@ -167,7 +167,11 @@ function App() {
                   "Glenda V. Facemire has been the Head Makeup Artist at Austin City Limits since 1987. Her professional expertise and attention to detail have made her an invaluable part of our production team."
                 </div>
                 <div className="review-photo" style={{display: 'none'}}>
-                  <img src="/Terry Lickona Forward MITK.pages" alt="Terry Lickona testimonial" className="testimonial-image" />
+                  <div className="testimonial-document">
+                    <a href="/Terry Lickona Forward MITK.pages" target="_blank" rel="noopener noreferrer" className="document-link">
+                      📄 View Terry Lickona's Full Testimonial
+                    </a>
+                  </div>
                 </div>
                 <div className="review-actions">
                   <button className="see-more-btn" onClick={(e) => toggleReview(e)}>
@@ -181,7 +185,11 @@ function App() {
                   "Glenda V. Facemire's work with the Humane Society has been nothing short of remarkable. Her commitment to animal welfare and her professional skills have made a significant impact on our organization."
                 </div>
                 <div className="review-photo" style={{display: 'none'}}>
-                  <img src="/Amer Humane Assoc.pdf" alt="Amer Humane Association testimonial" className="testimonial-image" />
+                  <div className="testimonial-document">
+                    <a href="/Amer Humane Assoc.pdf" target="_blank" rel="noopener noreferrer" className="document-link">
+                      📄 View Amer Humane Association's Full Testimonial
+                    </a>
+                  </div>
                 </div>
                 <div className="review-actions">
                   <button className="see-more-btn" onClick={(e) => toggleReview(e)}>
