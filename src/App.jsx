@@ -233,10 +233,10 @@ function App() {
                 <div className="cookbook-caption">Complements of B.B. King</div>
               </div>
               <div className="cookbook-image-container">
-                <img src="/5927352358_dc43899f64_z.jpeg" alt="Cookbook image" className="cookbook-image" />
+                <img src="/5931071016_7a6c134830_c.jpeg" alt="Cookbook image" className="cookbook-image" />
               </div>
               <div className="cookbook-image-container">
-                <img src="/5931071016_7a6c134830_c.jpeg" alt="Cookbook image" className="cookbook-image" />
+                <img src="/5927352358_dc43899f64_z.jpeg" alt="Cookbook image" className="cookbook-image" />
               </div>
             </div>
           </div>
