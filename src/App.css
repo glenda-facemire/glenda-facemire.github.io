@@ -402,13 +402,13 @@ strong {
 
 .bb-king-container {
   flex: 1;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .bb-king-image {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+  width: 400px;
+  height: auto;
+  object-fit: contain;
 }
 
 .cookbook-caption {
@@ -690,8 +690,8 @@ strong {
   }
   
   .bb-king-image {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: auto;
   }
 }
 
