@@ -263,9 +263,9 @@ strong {
 
 .reviews-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
-  max-width: 800px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  max-width: 1200px;
   margin: 0 auto 50px auto;
 }
 
@@ -377,8 +377,17 @@ strong {
 .review-image-container {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
-  grid-column: 1 / -1;
+  align-items: center;
+  background: #2d2d2d;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-image-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 .review-image {
@@ -693,6 +702,10 @@ strong {
   .reviews-grid {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+  
+  .review-image {
+    max-width: 250px;
   }
   
   .review-card {
