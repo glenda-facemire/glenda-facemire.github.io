@@ -109,6 +109,60 @@ strong {
   font-family: Georgia, serif;
 }
 
+.glowing-title {
+  background: linear-gradient(45deg, #ff0000, #ff4444, #ff6666, #ff4444, #ff0000);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 3s ease-in-out infinite, spotlight 4s ease-in-out infinite;
+  position: relative;
+  text-shadow: 
+    0 0 10px rgba(255, 0, 0, 0.8),
+    0 0 20px rgba(255, 0, 0, 0.6),
+    0 0 30px rgba(255, 0, 0, 0.4),
+    0 0 40px rgba(255, 0, 0, 0.2);
+  filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.7));
+}
+
+.glowing-title::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: radial-gradient(circle at var(--spotlight-x, 50%) var(--spotlight-y, 50%), 
+    rgba(255, 255, 255, 0.4) 0%, 
+    rgba(255, 255, 255, 0.2) 30%, 
+    transparent 70%);
+  border-radius: 20px;
+  z-index: -1;
+  animation: spotlightMove 6s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes spotlight {
+  0%, 100% { 
+    filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.7));
+  }
+  50% { 
+    filter: drop-shadow(0 0 25px rgba(255, 0, 0, 1)) drop-shadow(0 0 35px rgba(255, 100, 100, 0.8));
+  }
+}
+
+@keyframes spotlightMove {
+  0% { --spotlight-x: 20%; --spotlight-y: 30%; }
+  25% { --spotlight-x: 80%; --spotlight-y: 20%; }
+  50% { --spotlight-x: 60%; --spotlight-y: 70%; }
+  75% { --spotlight-x: 30%; --spotlight-y: 80%; }
+  100% { --spotlight-x: 20%; --spotlight-y: 30%; }
+}
+
 .hero-subtitle {
   font-size: 1.5rem;
   color: #cccccc;
@@ -447,36 +501,6 @@ strong {
   color: #666;
   font-size: 0.9rem;
   font-weight: 500;
-}
-
-.author-name {
-  color: #ff0000;
-  font-weight: 700;
-  font-size: 1.3em;
-  text-shadow: 
-    0 0 10px rgba(255, 0, 0, 0.8),
-    0 0 20px rgba(255, 0, 0, 0.6),
-    0 0 30px rgba(255, 0, 0, 0.4),
-    0 0 40px rgba(255, 0, 0, 0.2);
-  animation: spotlight-glow 3s ease-in-out infinite alternate;
-  position: relative;
-}
-
-@keyframes spotlight-glow {
-  0% {
-    text-shadow: 
-      0 0 10px rgba(255, 0, 0, 0.8),
-      0 0 20px rgba(255, 0, 0, 0.6),
-      0 0 30px rgba(255, 0, 0, 0.4),
-      0 0 40px rgba(255, 0, 0, 0.2);
-  }
-  100% {
-    text-shadow: 
-      0 0 15px rgba(255, 0, 0, 1),
-      0 0 25px rgba(255, 0, 0, 0.8),
-      0 0 35px rgba(255, 0, 0, 0.6),
-      0 0 45px rgba(255, 0, 0, 0.4);
-  }
 }
 
 
