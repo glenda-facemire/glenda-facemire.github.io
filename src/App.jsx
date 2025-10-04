@@ -228,9 +228,6 @@ function App() {
               <div className="cookbook-image-container">
                 <img src="/1752949881888blob.jpg" alt="1752" className="cookbook-image" />
               </div>
-              <div className="cookbook-image-container">
-                <img src="/5926791613_00370c9823_z.jpeg" alt="Cookbook image" className="cookbook-image" />
-              </div>
               <div className="cookbook-image-container bb-king-container">
                 <img src="/B_B_ King.jpeg" alt="B.B. King" className="cookbook-image bb-king-image" />
                 <div className="cookbook-caption">Complements of B.B. King</div>

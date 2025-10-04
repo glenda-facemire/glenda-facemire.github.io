@@ -432,11 +432,11 @@ strong {
 
 .bb-king-container {
   flex: 1;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .bb-king-image {
-  width: 400px;
+  width: 500px;
   height: auto;
   object-fit: contain;
 }
@@ -724,7 +724,7 @@ strong {
   }
   
   .bb-king-image {
-    width: 280px;
+    width: 350px;
     height: auto;
   }
 }
