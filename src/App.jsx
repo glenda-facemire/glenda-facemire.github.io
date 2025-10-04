@@ -168,7 +168,7 @@ function App() {
                 <div className="review-photo" style={{display: 'none'}}>
                   <div className="testimonial-document">
                     <a href="/Terry Lickona Forward MITK.pages" target="_blank" rel="noopener noreferrer" className="document-link">
-                      📄 View Terry Lickona's Full Forward
+                      📄 View Terry Lickona's Forward from Cookbook
                     </a>
                   </div>
                 </div>
