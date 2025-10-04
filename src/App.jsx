@@ -180,7 +180,7 @@ function App() {
                 <div className="review-author">- Terry Lickona, Executive Producer, Austin City Limits PBS</div>
               </div>
               <div className="review-image-container">
-                <img src="/Image 10-4-25 at 2.42 PM.jpeg" alt="Additional testimonial image" className="review-image" />
+                <img src="/testimonial-image.jpeg" alt="Additional testimonial image" className="review-image" />
               </div>
               <div className="review-card">
                 <div className="review-text">
