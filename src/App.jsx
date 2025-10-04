@@ -23,7 +23,6 @@ function Navbar() {
           <li><a href="#reviews" className="nav-link">Reviews</a></li>
           <li><a href="#contact" className="nav-link">Contact</a></li>
           <li><a href="#cookbook" className="nav-link">Cookbook</a></li>
-          <li><a href="#work-with-us" className="nav-link">Work with us</a></li>
         </ul>
       </div>
     </nav>
@@ -178,7 +177,7 @@ function App() {
                     See More <span className="arrow">→</span>
                   </button>
                 </div>
-                <div className="review-author">- Terry Lickona, Austin City Limits</div>
+                <div className="review-author">- Terry Lickona, Executive Producer, Austin City Limits PBS</div>
               </div>
               <div className="review-card">
                 <div className="review-text">
@@ -233,13 +232,6 @@ function App() {
           </div>
         </section>
 
-        {/* Work with us Section */}
-        <section id="work-with-us" className="work-with-us-section">
-          <div className="container">
-            <h2 className="section-title">Work with us</h2>
-            {/* Content will be added later */}
-          </div>
-        </section>
       </main>
       <Footer />
     </div>
