@@ -111,6 +111,11 @@ strong {
 
 .glowing-title {
   color: #000000;
+  text-shadow: 
+    0 0 20px rgba(255, 255, 255, 1),
+    0 0 30px rgba(255, 255, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.6),
+    0 0 50px rgba(255, 255, 255, 0.4);
 }
 
 body::before {
@@ -121,10 +126,10 @@ body::before {
   right: 0;
   bottom: 0;
   background: radial-gradient(ellipse 1200px 900px at 85% 15%, 
-    rgba(255, 255, 255, 0.7) 0%, 
-    rgba(255, 255, 255, 0.5) 25%, 
-    rgba(255, 255, 255, 0.3) 50%,
-    rgba(255, 255, 255, 0.15) 75%,
+    rgba(255, 255, 255, 0.95) 0%, 
+    rgba(255, 255, 255, 0.8) 25%, 
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
     transparent 85%);
   z-index: -1;
   pointer-events: none;
