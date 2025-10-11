@@ -84,7 +84,7 @@ strong {
 /* Hero Section */
 .hero {
   min-height: 80vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./pexels-scottwebb-2011824.jpg');
+  background: #800000;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -110,7 +110,7 @@ strong {
 }
 
 .glowing-title {
-  color: #ff0000;
+  color: #000000;
 }
 
 body::before {
